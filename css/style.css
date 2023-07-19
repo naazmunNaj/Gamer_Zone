@@ -36,7 +36,6 @@ header {
 
 .menus {
     display: flex;
-
 }
 
 .menus>ul {
@@ -368,4 +367,331 @@ footer {
     font-size: 16px;
     font-weight: 500;
     padding-top: 28px;
+}
+
+
+@media screen and (max-width :425px) {
+    header {
+        margin: 10 20px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .menus ul {
+        justify-content: space-evenly;
+    }
+    .logo-text {
+        color: #0B0223;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .logo-text span {
+        color: #FF42A5;
+    }
+    .nav-icons {
+        width: 262px;
+        height: 56px;
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+    }
+
+    .nav-container {
+        display: block;
+    }
+    .menus {
+        display: block;
+    }
+
+    .menus ul {
+        display: block;
+    }
+
+    .menus ul li {
+        display: block;
+        margin-top: 20px;
+    }
+    .nav-icons {
+        visibility: hidden;
+    }
+    .banner-container {
+        display: block;
+        margin-top: 100px;
+    }
+    
+    .banner-text h2 {
+        color: #0B0223;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    
+    .banner-text h1 {
+        font-size: 70px;
+        width: 381px;
+    }
+    .banner-text p {
+        color: #534C64;
+        /* text-align: center; */
+        font-family: Work Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: lowercase;
+        width: 381px;
+    }
+    .banner-icons {
+        padding: 10px 15px;
+    }
+    button {
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    .sign {
+        padding: 10px 20px;
+        align-items: flex-start;
+        gap: 10px;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #FF426C 0%, #FF42A5 100%);
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    .go {
+        display: inline-flex;
+        padding: 10px 20px;
+        gap: 10px;
+        border: none;
+        border-radius: 30px;
+        background-color: #4EC5F7;
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    .banner-image img {
+        width: 100%;
+    }
+    
+    main {
+        margin: 0 100px;
+    }
+    
+    .section-title {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .section-title h3 {
+        color: #0B0223;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .section-title span {
+        text-align: right;
+        font-size: 18px;
+        font-weight: 500;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .section-title p {
+        color: #534C64;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+    }
+    
+    .game-gallery {
+        display: block;
+        row-gap: 10px;
+    }
+    
+    .card {
+        width: 200px;
+        height: 200px;
+        border-radius: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .card p {
+        color: #534C64;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 15px;
+    }
+    
+    .card img {
+        width: 60%;
+    }
+    
+    .image-overlap {
+        display: block;
+        padding-top: 120px;
+    }
+
+    .big-image img {
+        width: 150%;
+    }
+    
+    .texts {
+        transform:0;
+    }
+    
+    .texts h3 {
+        width: 300px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        color: #0B0223;
+    }
+    
+    .texts span {
+        color: #FF42A5;
+    }
+    
+    .texts p {
+        width: 300px;
+        text-align: center;
+        color: #534C64;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+        padding-top: 24px;
+    }
+    
+    .small-image img {
+        width: 50%;
+        transform: translate(-30px, -60px);
+    }
+    
+    .images {
+        width: 100%;
+    }
+    
+    .game-types {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .game-types2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+    }
+    
+    .games {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    
+    .games:hover {
+        visibility: hidden;
+    }
+    
+    .games p {
+        color: #0B0223;
+        font-size: 10px;
+        font-weight: 300;
+        padding-right: 30px;
+    }
+    
+    .game-types-container {
+        padding-bottom: 70px;
+    }
+    
+    footer {
+        height: 600px;
+        background: #0B0223;
+        margin: 0 30px;
+    }
+    
+    .foot-pic {
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 80px;
+        padding-bottom: 73px;
+        /* width: 834px; */
+        margin: 0 auto;
+    }
+    
+    .foot-pic p {
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .foot-pic span {
+        color: #FF42A5;
+    }
+    
+    .foot-nav>ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .foot-nav ul li {
+        color: #FFF;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+    .foot-icons>ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 66px;
+        padding-bottom: 64px;
+    }
+    
+    .foot-icons ul li i {
+        padding: 15px 40px;
+        font-size: 30px;
+    }
+    
+    .foot-footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .foot-footer ul li {
+        color: rgba(255, 255, 255, 0.60);
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0 20px;
+    }
+    
+    .copyright p {
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 28px;
+    }
+    
+    
 }
