@@ -119,6 +119,7 @@ header {
 
 button {
     margin-top: 30px;
+    margin-right: 10px;
 }
 
 .sign {
@@ -214,8 +215,6 @@ main {
     justify-content: space-between;
     align-items: center;
     padding-top: 120px;
-    padding-bottom: 200px;
-  
 }
 
 .big-image img {
@@ -259,4 +258,114 @@ main {
 
 .images {
     width: 50%;
+}
+
+.game-types {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-types2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.games {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.games:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.games p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.game-types-container {
+    padding-bottom: 100px;
+}
+
+footer {
+    height: 636px;
+    background: #0B0223;
+}
+
+.foot-pic {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 73px;
+    /* width: 834px; */
+    margin: 0 auto;
+}
+
+.foot-pic p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.foot-pic span {
+    color: #FF42A5;
+}
+
+.foot-nav>ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.foot-nav ul li {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.foot-icons>ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 66px;
+    padding-bottom: 64px;
+}
+
+.foot-icons ul li i {
+    padding: 0 20px;
+    font-size: 30px;
+}
+
+.foot-footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-footer ul li {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 30px;
+}
+
+.copyright p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 28px;
 }
