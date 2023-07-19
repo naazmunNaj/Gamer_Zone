@@ -1,0 +1,149 @@
+/* ======= common CCS start======== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* =========common CSS end======= */
+header {
+    margin: 30px 100px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menus {
+    display: flex;
+
+}
+
+.menus>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menus ul {
+    justify-content: space-evenly;
+}
+
+.logo-text {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo-text span {
+    color: #FF42A5;
+}
+
+.nav-icons {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.menus>ul>li>a {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 280px;
+    align-items: center;
+    padding-top: 100px;
+}
+.banner-text h2 {
+    color: #0B0223;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-text h1 {
+    /* text-align: center; */
+    font-size: 95px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text p {
+    color: #534C64;
+    /* text-align: center; */
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    width: 381px;
+}
+
+.banner-icons {
+    padding: 10px 15px;
+}
+button{
+    margin-top: 30px;
+}
+.sign {
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF426C 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.go {
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-image img{
+    width: 100%;
+}
